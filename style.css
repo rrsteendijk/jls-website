@@ -116,3 +116,23 @@ header, footer {
     color: white;
     transform: rotateY(180deg);
 }
+
+/* Bestaande stijlen... */
+
+/* Responsive stijlen voor kleinere schermen */
+@media screen and (max-width: 600px) {
+    .body-content button {
+        padding: 20px 40px; /* Grotere padding voor grotere knoppen */
+        font-size: 1.2em; /* Groter lettertype voor betere leesbaarheid */
+    }
+
+    nav ul li {
+        display: block; /* Stacked lijstitems in plaats van inline */
+        margin-right: 0;
+        margin-bottom: 10px; /* Ruimte tussen items */
+    }
+
+    header, footer {
+        padding: 2em 0; /* Meer ruimte in header en footer */
+    }
+}
