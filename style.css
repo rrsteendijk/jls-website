@@ -215,3 +215,14 @@ button {
 button:hover {
     background-color: #4cae4c;
 }
+#weather-container {
+    width: 300px;
+    margin: auto;
+    border: 1px solid #333;
+    padding: 20px;
+    text-align: center;
+}
+
+#weather {
+    margin-top: 20px;
+}
