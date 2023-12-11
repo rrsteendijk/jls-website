@@ -55,8 +55,7 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 1em 0;
-    position: fixed;
+    padding: -1em 0;
     bottom: 0;
     width: 100%;
 }
@@ -277,3 +276,8 @@ td:hover {
                                 violet);
 								color: black;
 }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
